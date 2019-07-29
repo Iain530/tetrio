@@ -1,0 +1,53 @@
+body {
+    background-color: #999;
+    font-family: "Courier New";
+}
+
+div#box {
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+
+h4 {
+    text-align: center;
+    margin: 5px 0;
+}
+
+div.info {
+    position: fixed;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;;
+    background-color: #ddd;
+}
+
+div#blockControls {
+    left: 15%;
+    width: 250px;
+    height: 100px;
+    top: 10px;
+}
+
+div#jumpingmanControls {
+    right: 15%;
+    width: 250px;
+    height: 100px;
+    top: 10px;
+}
+
+div#bobj {
+    left: 15%;
+    width: 250px;
+    /*height: 290px;*/
+
+    top: 135px;
+}
+
+div#jmobj {
+    right: 15%;
+    top: 135px;
+    width: 250px;
+    /*height: 290px;*/
+}
